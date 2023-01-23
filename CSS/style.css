@@ -10,10 +10,7 @@ body{
 p{
     padding: 15px;
     margin: 17px;
-}
-
-nav a{
-    text-decoration: none;
+    font-family: 'Anton', sans-serif;
 }
 
 
@@ -22,20 +19,29 @@ ul{
 }
 
 h1{
-    text-align: center; 
-}
-
-
-header h1{
     text-align: center;
+    font-family: 'Martian Mono', monospace;
 }
 
+h2{
+    text-align: center;
+    font-family: 'Martian Mono', monospace;
+}
+
+h3{
+font-family: 'Markazi Text', serif;
+}
 nav {
     font-size: 1.3rem;
     text-align: center;
     padding: .5em;
-    margin:  5px 170px;
+    margin:  5px 320px;
+}
 
+nav #fondonordic{
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
 }
 
 nav li{
@@ -60,9 +66,13 @@ nav a {
     background-image: url(../IMAGES/fondogreek.jpeg);
 }
 
+/*TOTES LES IMAGES */
 .logo{
     float: right;
-    height: 100px;
+    display: flex;
+    height: 80px;
+    margin: 10px 10px;
+    flex-flow: row wrap;
 }
 
 .imagesIndexGreek{
@@ -96,6 +106,9 @@ nav a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
 }
 
 .godsgreeks{
@@ -104,6 +117,7 @@ nav a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .nordicphoto{
@@ -111,6 +125,9 @@ nav a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
 }
 
 .godsnordic{
@@ -118,10 +135,9 @@ nav a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
-
-h2{
-    text-align: center;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
 }
 
 article{
@@ -134,8 +150,12 @@ section{
     padding: 50px;
 }
 
+
 .fondonordic{
     background-color: #fff;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
 }
 
 table, th, td{
@@ -168,6 +188,22 @@ table{
     background-color: #ff000088;
 }
 
+main{
+    text-align: center;
+}
+
 footer{
     text-align: center;
+}
+
+.fondoregistre{
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    background-color: #fff;
+    margin: 10px 250px;
+}
+
+.bottons{
+    margin: 10px 250px;
 }
