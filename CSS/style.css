@@ -77,7 +77,17 @@ nav a {
     padding: 10px;
 }
 
-.fotosColab{
+.fotosTwiter{
+    height: 75px;
+}
+
+.fotosRegistro{
+    padding: 10px;
+    height: 50px;
+    
+}
+
+.fotosInsta{
     height: 50px;
 }
 
@@ -156,4 +166,8 @@ table{
 
 .attribution{
     background-color: #ff000088;
+}
+
+footer{
+    text-align: center;
 }
