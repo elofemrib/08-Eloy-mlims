@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
+/*CLASES BASIQUES*/
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -13,17 +13,32 @@ p{
     font-family: 'Anton', sans-serif;
 }
 
-
-ul{
-    list-style: none;
+article{
+    width: 1000px;
+    margin: 50px auto;
 }
 
-h1{
+section{
+    margin: 10px;
+    padding: 40px;
+}
+
+main{
     text-align: center;
-    font-family: 'Martian Mono', monospace;
 }
 
-h2{
+footer{
+    text-align: center;
+    margin: 30px 295px;
+    padding: 20px;
+}
+/*FINAL CLASES BASIQUES*/
+
+
+
+
+/*TITULS*/
+h1, h2{
     text-align: center;
     font-family: 'Martian Mono', monospace;
 }
@@ -31,6 +46,16 @@ h2{
 h3{
 font-family: 'Markazi Text', serif;
 }
+/*FINAL DELS TITULS*/
+
+
+
+
+/*LLISTES*/
+ul{
+    list-style: none;
+}
+
 nav {
     font-size: 1.3rem;
     text-align: center;
@@ -53,7 +78,12 @@ nav a {
     color: black;
     text-decoration: solid;
 }
+/*FINAL LLISTES*/
 
+
+
+
+/*TOTES LES IMAGES */
 .div-image-fondo-nordic{
     background-image: url(../IMAGES/fondonordic.jpeg);
 }
@@ -66,13 +96,10 @@ nav a {
     background-image: url(../IMAGES/fondogreek.jpeg);
 }
 
-/*TOTES LES IMAGES */
 .logo{
     float: right;
-    display: flex;
     height: 80px;
-    margin: 10px 10px;
-    flex-flow: row wrap;
+    margin: 40px 20px;
 }
 
 .imagesIndexGreek{
@@ -139,25 +166,44 @@ nav a {
     border-style: solid;
     border-color: rgb(0, 0, 0);
 }
-
-article{
-    width: 1000px;
-    margin: 0 auto;
-}
-
-section{
-    margin: 20px;
-    padding: 50px;
-}
+/*FINAL IMAGES*/
 
 
+
+
+/*COLOR DE FONDOS Y BORDES*/
 .fondonordic{
     background-color: #fff;
     border-width: 3px;
     border-style: solid;
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(145, 145, 145);
 }
 
+.fondogreek{
+    background-color: #fff;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(145, 145, 145);
+
+}
+
+.fondoregistre{
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(199, 196, 196);
+    background-color: #fff;
+    margin: 10px 250px;
+}
+
+.bottons{
+    margin: 10px 310px;
+}
+/*FINAL COLOR DE FONDOS Y BORDES*/
+
+
+
+
+/*TABLA DELS DEUS GREEKS*/
 table, th, td{
     text-align: center;
     border-collapse: collapse;
@@ -187,23 +233,4 @@ table{
 .attribution{
     background-color: #ff000088;
 }
-
-main{
-    text-align: center;
-}
-
-footer{
-    text-align: center;
-}
-
-.fondoregistre{
-    border-width: 3px;
-    border-style: solid;
-    border-color: rgb(0, 0, 0);
-    background-color: #fff;
-    margin: 10px 250px;
-}
-
-.bottons{
-    margin: 10px 250px;
-}
+/*FINAL TABLA DELS DEUS GREEKS*/
