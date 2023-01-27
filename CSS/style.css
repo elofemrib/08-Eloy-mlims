@@ -2,15 +2,13 @@
     margin: 0;
     padding: 0;
 }
-/*CLASES BASIQUES*/
-body{
-    font-family: 'Roboto', sans-serif;
-}
 
+/*CLASES BASIQUES*/
 p{
     padding: 15px;
     margin: 17px;
-    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+    font-family: 'Bebas Neue';
 }
 
 article{
@@ -29,9 +27,10 @@ main{
 
 footer{
     text-align: center;
-    margin: 30px 295px;
+    margin: 30px 290px;
     padding: 20px;
 }
+
 /*FINAL CLASES BASIQUES*/
 
 
@@ -40,11 +39,11 @@ footer{
 /*TITULS*/
 h1, h2{
     text-align: center;
-    font-family: 'Martian Mono', monospace;
+    font-family: 'Zen Dots';
 }
 
 h3{
-font-family: 'Markazi Text', serif;
+    font-family: 'Anton', sans-serif;
 }
 /*FINAL DELS TITULS*/
 
@@ -59,8 +58,8 @@ ul{
 nav {
     font-size: 1.3rem;
     text-align: center;
-    padding: .5em;
-    margin:  5px 320px;
+    padding: 10px;
+    margin:  20px 290px;
 }
 
 nav #fondonordic{
@@ -98,7 +97,7 @@ nav a {
 
 .logo{
     float: right;
-    height: 80px;
+    height: 65px;
     margin: 40px 20px;
 }
 
@@ -114,7 +113,7 @@ nav a {
     padding: 10px;
 }
 
-.fotosTwiter{
+.fotosTwitter{
     height: 75px;
 }
 
@@ -180,19 +179,26 @@ nav a {
 }
 
 .fondogreek{
+    
     background-color: #fff;
     border-width: 3px;
     border-style: solid;
     border-color: rgb(145, 145, 145);
+}
 
+.fondoinicio{
+    background-color: #fff;
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(145, 145, 145);
 }
 
 .fondoregistre{
     border-width: 3px;
     border-style: solid;
     border-color: rgb(199, 196, 196);
-    background-color: #fff;
-    margin: 10px 250px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 290px;
 }
 
 .bottons{
@@ -204,6 +210,9 @@ nav a {
 
 
 /*TABLA DELS DEUS GREEKS*/
+table{
+    margin: 0px 150px;
+}
 table, th, td{
     text-align: center;
     border-collapse: collapse;
@@ -222,10 +231,6 @@ td{
     background-color:#f02b5cb2;
 }
 
-table{
-    float: center;
-}
-
 .hellenicname{
     background-color: #e05947b2;
 }
@@ -234,3 +239,54 @@ table{
     background-color: #ff000088;
 }
 /*FINAL TABLA DELS DEUS GREEKS*/
+
+
+
+
+/*TIPOS DE LETRA*/
+.coltitulos{
+    color: black;
+}
+
+.colpalabras{
+    color: rgb(255, 0, 0);
+    font-weight: bolder;
+
+}
+
+.collinks{
+    color: rgb(0, 140, 255);
+    font-weight: bolder;
+
+}
+
+.negritapalabras{
+    font-weight: bolder;
+
+}
+
+h3{
+    color: #E05847;
+}
+/*FINAL TIPOS DE LETRA*/
+
+
+
+/*AMPLIACION FOTOS/TEXTO*/
+footer a img:hover{
+    height: 90px;
+}
+
+article section h2:hover{
+    font-size: 30px;
+}
+
+article section p a:hover{
+    font-size: 17px
+}
+
+article section h3:hover{
+    font-size: 23px;
+    color: #a81057;
+}
+/*FINAL AMPLIACION FOTOS/TEXTO*/
